@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://soulscale75.github.io/tag/linux/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://soulscale75.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-06-12T01:31:03+09:00</updated>
+  <updated>2022-06-12T01:33:42+09:00</updated>
   <id>https://soulscale75.github.io/tag/linux/feed.xml</id>
 
   
@@ -53,7 +53,7 @@ Default 값인 32768로만 유지가 되었다&lt;/p&gt;
 
 &lt;p&gt;조치방법&lt;/p&gt;
 
-&lt;p&gt;grub 파일에 ipcmni_extend 추가후 grun rebuilding&lt;/p&gt;
+&lt;p&gt;grub 파일에 ipcmni_extend 추가후 grub rebuilding&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;
    # cat /etc/default/grub 
