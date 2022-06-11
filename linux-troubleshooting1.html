@@ -198,7 +198,7 @@ Issue : kernel.msgmni 값이 default인 32768에서 변경이 안됨</p>
 <p>kernel.msgmni = 96533 으로 설정을 했으나 값이 적용이 안되고<br />
 Default 값인 32768로만 유지가 되었다</p>
 
-<p>왜 이런 오류가 발생했는지는 원인을 정확히 파악이 필요 했지만<br />
+<p>왜 이런 오류가 발생했는지는 원인 파악이 필요 했지만<br />
 우선 선 조치 후 나중에 원인을 찾기로 했다</p>
 
 <p>조치방법</p>
@@ -212,7 +212,7 @@ Default 값인 32768로만 유지가 되었다</p>
    GRUB_DEFAULT=saved
    GRUB_DISABLE_SUBMENU=true
    GRUB_TERMINAL_OUTPUT="console"
-   GRUB_CMDLINE_LINUX="crashkernel=auto rd.lvm.lv=rhel/root rd.lvm.lv=rhel/swap console=tty0 console=ttyS0,115200 ipcmni_extend"&lt;--
+   GRUB_CMDLINE_LINUX="crashkernel=auto rd.lvm.lv=rhel/root rd.lvm.lv=rhel/swap console=tty0 console=ttyS0,115200 <span style="color:red">ipcmni_extend</span>"&lt;--
    GRUB_DISABLE_RECOVERY="true"
   
    for UEFI:

@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://soulscale75.github.io/author/soulscale75/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://soulscale75.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-06-12T01:21:59+09:00</updated>
+  <updated>2022-06-12T01:31:03+09:00</updated>
   <id>https://soulscale75.github.io/author/soulscale75/feed.xml</id>
 
   
@@ -48,7 +48,7 @@ Issue : kernel.msgmni 값이 default인 32768에서 변경이 안됨&lt;/p&gt;
 &lt;p&gt;kernel.msgmni = 96533 으로 설정을 했으나 값이 적용이 안되고&lt;br /&gt;
 Default 값인 32768로만 유지가 되었다&lt;/p&gt;
 
-&lt;p&gt;왜 이런 오류가 발생했는지는 원인을 정확히 파악이 필요 했지만&lt;br /&gt;
+&lt;p&gt;왜 이런 오류가 발생했는지는 원인 파악이 필요 했지만&lt;br /&gt;
 우선 선 조치 후 나중에 원인을 찾기로 했다&lt;/p&gt;
 
 &lt;p&gt;조치방법&lt;/p&gt;
@@ -62,7 +62,7 @@ Default 값인 32768로만 유지가 되었다&lt;/p&gt;
    GRUB_DEFAULT=saved
    GRUB_DISABLE_SUBMENU=true
    GRUB_TERMINAL_OUTPUT=&quot;console&quot;
-   GRUB_CMDLINE_LINUX=&quot;crashkernel=auto rd.lvm.lv=rhel/root rd.lvm.lv=rhel/swap console=tty0 console=ttyS0,115200 ipcmni_extend&quot;&amp;lt;--
+   GRUB_CMDLINE_LINUX=&quot;crashkernel=auto rd.lvm.lv=rhel/root rd.lvm.lv=rhel/swap console=tty0 console=ttyS0,115200 &lt;span style=&quot;color:red&quot;&gt;ipcmni_extend&lt;/span&gt;&quot;&amp;lt;--
    GRUB_DISABLE_RECOVERY=&quot;true&quot;
   
    for UEFI:
