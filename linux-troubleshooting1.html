@@ -187,41 +187,41 @@ into the {body} of the default.hbs template -->
 
             <section class="post-full-content">
                 <div class="kg-card-markdown">
-                    <p>환경
-OS Ver : RHEL 7.6 -&gt; RHEL 7.9 패치
+                    <p>환경<br />
+OS Ver : RHEL 7.6 -&gt; RHEL 7.9 패치<br />
 Issue : kernel.msgmni 값이 default인 32768에서 변경이 안됨</p>
 
-<p>DB2 버전 패치가 필요하여 OS 업데이트 요청이 왔다.
-그동안 DB2 패치를 위해 OS 업데이트를 여러대 했지만
+<p>DB2 버전 패치가 필요하여 OS 업데이트 요청이 왔다.<br />
+그동안 DB2 패치를 위해 OS 업데이트를 여러대 했지만<br />
 이번과 같은 오류는 첨 발생했다.</p>
 
-<p>kernel.msgmni = 96533 으로 설정을 했으나 값이 적용이 안되고 Default 값인 32768로만 유지가 되었다</p>
+<p>kernel.msgmni = 96533 으로 설정을 했으나 값이 적용이 안되고<br />
+Default 값인 32768로만 유지가 되었다</p>
 
-<p>왜 이런 오류가 발생했는지는 원인을 정확히 파악이 필요 했지만 우선 선 조치 후 나중에 원인을 찾기로 했다</p>
+<p>왜 이런 오류가 발생했는지는 원인을 정확히 파악이 필요 했지만<br />
+우선 선 조치 후 나중에 원인을 찾기로 했다</p>
 
 <p>조치방법</p>
 
-<ul>
-  <li>grub 파일에 ipcmni_extend 추가후 grun rebuilding
-    <pre><code>
- # cat /etc/default/grub 
- GRUB_TIMEOUT=5
- GRUB_DISTRIBUTOR="$(sed 's, release .*$,,g' /etc/system-release)"
- GRUB_DEFAULT=saved
- GRUB_DISABLE_SUBMENU=true
- GRUB_TERMINAL_OUTPUT="console"
- GRUB_CMDLINE_LINUX="crashkernel=auto rd.lvm.lv=rhel/root rd.lvm.lv=rhel/swap console=tty0 console=ttyS0,115200 ipcmni_extend"&lt;--
- GRUB_DISABLE_RECOVERY="true"
+<p>grub 파일에 ipcmni_extend 추가후 grun rebuilding</p>
+
+<pre><code>
+   # cat /etc/default/grub 
+   GRUB_TIMEOUT=5
+   GRUB_DISTRIBUTOR="$(sed 's, release .*$,,g' /etc/system-release)"
+   GRUB_DEFAULT=saved
+   GRUB_DISABLE_SUBMENU=true
+   GRUB_TERMINAL_OUTPUT="console"
+   GRUB_CMDLINE_LINUX="crashkernel=auto rd.lvm.lv=rhel/root rd.lvm.lv=rhel/swap console=tty0 console=ttyS0,115200 ipcmni_extend"&lt;--
+   GRUB_DISABLE_RECOVERY="true"
   
- for UEFI:
- # grub2-mkconfig -o /boot/efi/EFI/redhat/grub.cfg
+   for UEFI:
+   # grub2-mkconfig -o /boot/efi/EFI/redhat/grub.cfg
   
- # reboot
+   # reboot
   
- # 조치 완료
- </code></pre>
-  </li>
-</ul>
+   # 조치 완료
+   </code></pre>
 
 <p>오류 발생 원인</p>
 

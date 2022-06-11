@@ -10,8 +10,8 @@
       <item>
         <title>리눅스 트러블슈팅 - kernel.msgmni 변경 실패</title>
         
-          <description>&lt;p&gt;환경
-OS Ver : RHEL 7.6 -&amp;gt; RHEL 7.9 패치
+          <description>&lt;p&gt;환경&lt;br /&gt;
+OS Ver : RHEL 7.6 -&amp;gt; RHEL 7.9 패치&lt;br /&gt;
 Issue : kernel.msgmni 값이 default인 32768에서 변경이 안됨&lt;/p&gt;
 
 </description>
