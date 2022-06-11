@@ -8,6 +8,23 @@
     
       
       <item>
+        <title>리눅스 트러블슈팅 - kernel.msgmni 변경 실패</title>
+        
+          <description>&lt;p&gt;환경
+OS Ver : RHEL 7.6 -&amp;gt; RHEL 7.9 패치
+Issue : kernel.msgmni 값이 default인 32768에서 변경이 안됨&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sun, 12 Jun 2022 00:54:00 +0900</pubDate>
+        <link>
+        https://soulscale75.github.io/linux-troubleshooting1</link>
+        <guid isPermaLink="true">https://soulscale75.github.io/linux-troubleshooting1</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Python 강좌(2)</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;

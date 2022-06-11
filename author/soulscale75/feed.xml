@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://soulscale75.github.io/author/soulscale75/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://soulscale75.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-06-12T00:46:51+09:00</updated>
+  <updated>2022-06-12T01:14:35+09:00</updated>
   <id>https://soulscale75.github.io/author/soulscale75/feed.xml</id>
 
   
@@ -30,6 +30,80 @@
   
   
 
+  
+    <entry>
+      <title type="html">리눅스 트러블슈팅 - kernel.msgmni 변경 실패</title>
+      <link href="https://soulscale75.github.io/linux-troubleshooting1" rel="alternate" type="text/html" title="리눅스 트러블슈팅 - kernel.msgmni 변경 실패" />
+      <published>2022-06-12T00:54:00+09:00</published>
+      <updated>2022-06-12T00:54:00+09:00</updated>
+      <id>https://soulscale75.github.io/linux-troubleshooting1</id>
+      <content type="html" xml:base="https://soulscale75.github.io/linux-troubleshooting1">&lt;p&gt;환경
+OS Ver : RHEL 7.6 -&amp;gt; RHEL 7.9 패치
+Issue : kernel.msgmni 값이 default인 32768에서 변경이 안됨&lt;/p&gt;
+
+&lt;p&gt;DB2 버전 패치가 필요하여 OS 업데이트 요청이 왔다.
+그동안 DB2 패치를 위해 OS 업데이트를 여러대 했지만
+이번과 같은 오류는 첨 발생했다.&lt;/p&gt;
+
+&lt;p&gt;kernel.msgmni = 96533 으로 설정을 했으나 값이 적용이 안되고 Default 값인 32768로만 유지가 되었다&lt;/p&gt;
+
+&lt;p&gt;왜 이런 오류가 발생했는지는 원인을 정확히 파악이 필요 했지만 우선 선 조치 후 나중에 원인을 찾기로 했다&lt;/p&gt;
+
+&lt;p&gt;조치방법&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;grub 파일에 ipcmni_extend 추가후 grun rebuilding
+    &lt;pre&gt;&lt;code&gt;
+ # cat /etc/default/grub 
+ GRUB_TIMEOUT=5
+ GRUB_DISTRIBUTOR=&quot;$(sed &apos;s, release .*$,,g&apos; /etc/system-release)&quot;
+ GRUB_DEFAULT=saved
+ GRUB_DISABLE_SUBMENU=true
+ GRUB_TERMINAL_OUTPUT=&quot;console&quot;
+ GRUB_CMDLINE_LINUX=&quot;crashkernel=auto rd.lvm.lv=rhel/root rd.lvm.lv=rhel/swap console=tty0 console=ttyS0,115200 ipcmni_extend&quot;&amp;lt;--
+ GRUB_DISABLE_RECOVERY=&quot;true&quot;
+  
+ for UEFI:
+ # grub2-mkconfig -o /boot/efi/EFI/redhat/grub.cfg
+  
+ # reboot
+  
+ # 조치 완료
+ &lt;/code&gt;&lt;/pre&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;오류 발생 원인&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;확인중…&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>soulscale75</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="linux" />
+      
+
+      
+        <summary type="html">환경 OS Ver : RHEL 7.6 -&amp;gt; RHEL 7.9 패치 Issue : kernel.msgmni 값이 default인 32768에서 변경이 안됨</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">Python 강좌(2)</title>
