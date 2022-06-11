@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://soulscale75.github.io/author/soulscale75/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://soulscale75.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-06-12T01:33:42+09:00</updated>
+  <updated>2022-06-12T01:42:16+09:00</updated>
   <id>https://soulscale75.github.io/author/soulscale75/feed.xml</id>
 
   
@@ -32,8 +32,8 @@
 
   
     <entry>
-      <title type="html">리눅스 트러블슈팅 - kernel.msgmni 변경 실패</title>
-      <link href="https://soulscale75.github.io/linux-troubleshooting1" rel="alternate" type="text/html" title="리눅스 트러블슈팅 - kernel.msgmni 변경 실패" />
+      <title type="html">리눅스 트러블슈팅 - kernel.msgmni 값 변경 실패</title>
+      <link href="https://soulscale75.github.io/linux-troubleshooting1" rel="alternate" type="text/html" title="리눅스 트러블슈팅 - kernel.msgmni 값 변경 실패" />
       <published>2022-06-12T00:54:00+09:00</published>
       <updated>2022-06-12T00:54:00+09:00</updated>
       <id>https://soulscale75.github.io/linux-troubleshooting1</id>
