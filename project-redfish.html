@@ -11,7 +11,7 @@
 
 
 
-    <title>redfish를 통한 x86 H/W 관리시스템</title>
+    <title>redfish를 통한 x86 H/W 관리시스템 - 프로젝트 소개 및 아키텍처</title>
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Styles'n'Scripts -->
@@ -45,8 +45,8 @@
      <!--title below is coming from _includes/dynamic_title-->
     <meta property="og:site_name" content="IT Good Day" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="redfish를 통한 x86 H/W 관리시스템" />
-    <meta property="og:description" content="현재 진행중인 개인 프로젝트 현재 관리하고 있는 x86서버가 박스 기준 1500대가 넘었다. 유닉스 엔지니어를 시작했던 10여년 전에도 서버의 하드웨어를 효율적으로 관리하는게 목적이었는데, 그당시 언어를 배워서 무언가를 개발하는게 굉장히 힘들었었다. 왜 그시절에는 프로그래밍 언어가 그렇게 어려웠을까?? 최근에는 프로그래밍 언어의 접근 장벽이 예전보다는 낮아지고 개발 생태계도 많이 좋아져서 노력만 하면 누구든 개발할" />
+    <meta property="og:title" content="redfish를 통한 x86 H/W 관리시스템 - 프로젝트 소개 및 아키텍처" />
+    <meta property="og:description" content="현재 진행중인 개인 프로젝트 현재 관리하고 있는 x86서버가 박스 기준 1500대가 넘었다. 유닉스 엔지니어를 시작했던 15년전에도 서버의 하드웨어를 효율적으로 관리하는게 목적이었는데, 그당시 언어를 배워서 무언가를 개발하는게 굉장히 힘들게 느껴졌다. 내가 프로그래밍 언어에 대한 관심도가 지금과는 많이 달라서 그런거 같기도 하다. 최근에는 프로그래밍 언어의 접근 장벽이 예전보다는 낮아지고 개발 생태계도 많이" />
     <meta property="og:url" content="https://soulscale75.github.io/project-redfish" />
     <meta property="og:image" content="https://soulscale75.github.io/assets/built/images/x86ms-logo.png" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
@@ -55,8 +55,8 @@
     <meta property="article:modified_time" content="2022-06-12T19:20:00+09:00" />
     <meta property="article:tag" content="Project" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="redfish를 통한 x86 H/W 관리시스템" />
-    <meta name="twitter:description" content="현재 진행중인 개인 프로젝트 현재 관리하고 있는 x86서버가 박스 기준 1500대가 넘었다. 유닉스 엔지니어를 시작했던 10여년 전에도 서버의 하드웨어를 효율적으로 관리하는게 목적이었는데, 그당시 언어를 배워서 무언가를 개발하는게 굉장히 힘들었었다. 왜 그시절에는 프로그래밍 언어가 그렇게 어려웠을까?? 최근에는 프로그래밍 언어의 접근 장벽이 예전보다는 낮아지고 개발 생태계도 많이 좋아져서 노력만 하면 누구든 개발할" />
+    <meta name="twitter:title" content="redfish를 통한 x86 H/W 관리시스템 - 프로젝트 소개 및 아키텍처" />
+    <meta name="twitter:description" content="현재 진행중인 개인 프로젝트 현재 관리하고 있는 x86서버가 박스 기준 1500대가 넘었다. 유닉스 엔지니어를 시작했던 15년전에도 서버의 하드웨어를 효율적으로 관리하는게 목적이었는데, 그당시 언어를 배워서 무언가를 개발하는게 굉장히 힘들게 느껴졌다. 내가 프로그래밍 언어에 대한 관심도가 지금과는 많이 달라서 그런거 같기도 하다. 최근에는 프로그래밍 언어의 접근 장벽이 예전보다는 낮아지고 개발 생태계도 많이" />
     <meta name="twitter:url" content="https://soulscale75.github.io/" />
     <meta name="twitter:image" content="https://soulscale75.github.io/assets/built/images/x86ms-logo.png" />
     <meta name="twitter:label1" content="Written by" />
@@ -88,7 +88,7 @@
         "@type": "WebPage",
         "@id": "https://soulscale75.github.io/project-redfish"
     },
-    "description": "현재 진행중인 개인 프로젝트 현재 관리하고 있는 x86서버가 박스 기준 1500대가 넘었다. 유닉스 엔지니어를 시작했던 10여년 전에도 서버의 하드웨어를 효율적으로 관리하는게 목적이었는데, 그당시 언어를 배워서 무언가를 개발하는게 굉장히 힘들었었다. 왜 그시절에는 프로그래밍 언어가 그렇게 어려웠을까?? 최근에는 프로그래밍 언어의 접근 장벽이 예전보다는 낮아지고 개발 생태계도 많이 좋아져서 노력만 하면 누구든 개발할"
+    "description": "현재 진행중인 개인 프로젝트 현재 관리하고 있는 x86서버가 박스 기준 1500대가 넘었다. 유닉스 엔지니어를 시작했던 15년전에도 서버의 하드웨어를 효율적으로 관리하는게 목적이었는데, 그당시 언어를 배워서 무언가를 개발하는게 굉장히 힘들게 느껴졌다. 내가 프로그래밍 언어에 대한 관심도가 지금과는 많이 달라서 그런거 같기도 하다. 최근에는 프로그래밍 언어의 접근 장벽이 예전보다는 낮아지고 개발 생태계도 많이"
 }
     </script>
 
@@ -101,7 +101,7 @@
     </script> -->
 
     <meta name="generator" content="Jekyll 3.6.2" />
-    <link rel="alternate" type="application/rss+xml" title="redfish를 통한 x86 H/W 관리시스템" href="/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="redfish를 통한 x86 H/W 관리시스템 - 프로젝트 소개 및 아키텍처" href="/feed.xml" />
 
 
 </head>
@@ -177,7 +177,7 @@ into the {body} of the default.hbs template -->
                         
                     
                 </section>
-                <h1 class="post-full-title">redfish를 통한 x86 H/W 관리시스템</h1>
+                <h1 class="post-full-title">redfish를 통한 x86 H/W 관리시스템 - 프로젝트 소개 및 아키텍처</h1>
             </header>
 
             <!-- 
@@ -191,32 +191,41 @@ into the {body} of the default.hbs template -->
 
 <p>현재 관리하고 있는 x86서버가 박스 기준 1500대가 넘었다.</p>
 
-<p>유닉스 엔지니어를 시작했던 10여년 전에도 서버의 하드웨어를<br />
-효율적으로 관리하는게 목적이었는데, 그당시 언어를 배워서<br />
-무언가를 개발하는게 굉장히 힘들었었다.<br />
-왜 그시절에는 프로그래밍 언어가 그렇게 어려웠을까??</p>
+<p>유닉스 엔지니어를 시작했던 15년전에도 서버의 하드웨어를 효율적으로 관리하는게
+목적이었는데, 그당시 언어를 배워서 무언가를 개발하는게 굉장히 힘들게 느껴졌다.
+내가 프로그래밍 언어에 대한 관심도가 지금과는 많이 달라서 그런거 같기도 하다.</p>
 
-<p>최근에는 프로그래밍 언어의 접근 장벽이 예전보다는 낮아지고<br />
-개발 생태계도 많이 좋아져서 노력만 하면 누구든 개발할 수<br />
-있는 시대가 온거 같다.</p>
+<p>최근에는 프로그래밍 언어의 접근 장벽이 예전보다는 낮아지고 개발 생태계도 많이 좋아져서 
+노력만 하면 누구든 개발할 수 있는 시대가 온거 같다.</p>
 
-<p>왜냐하면 서버 엔지니어/관리자로만 15년간 생활해 왔던 내가 프로그램 공부를 해서<br />
+<p>왜냐하면 서버 엔지니어/관리자로만 15년간 생활해 왔던 내가 프로그램 공부를 해서 
 개발 프로젝트를 하고 있으니…ㅎㅎ</p>
 
-<p>비록 업무와 병행하며 공부하는데 많은 시간이 소요 되었고 업무외 시간에</p>
+<p>사실 이 프로젝트를 준비하게 된 계기는 
+처음에는 각 서버의 콘솔에 접속해서 웹 크롤링으로 관리하려고 했었다.
+배치성으로 크롤링해서 하루에 한번 하드웨어 문제가 있는지만 확인하려고 했는데
+구글, 유튜브에서 크롤링과 서버 자동화에 대해  검색하다 우연히 2020년도에 엔씨소프트 김현준님이 
+발표한 <a href="https://youtu.be/WE7KVonaN0A">[OICD2020] 서버 관리 오픈 플랫폼 redfish 낚아 채기</a>라는 영상을 보고
+개발 방향을 전환했다.</p>
 
-<p>조금씩 개발하고 있지만 진전이 있는걸 보니 뿌듯하기도 하다.</p>
+<p>서버의 콘솔에서 API를 제공하고 있었다니…</p>
 
-<p>자 이제 머리속에만 있던 자동화 계획을 하나씩 꺼내서 시작 해보자!!</p>
+<p>덕분에 파이썬만 공부하다가 HTML, CSS, Javascript, React, NodeJS를 공부하고 익히는데 1년이 후딱 지나버렸다.</p>
+
+<p>2022년 올 초부터 공부한걸 바탕으로 프로젝트를 시작했고 개발자가 아니다 보니 개발하는데만 
+집중을 할 수가 없어 시간이 많이 소요되고 있다.
+비록 업무와 병행하며 공부하는데 많은 시간이 소요 되었고 업무외 시간에 조금씩 개발하고 있지만 
+진전이 되고 있으니 매우 뿌듯하다.</p>
 
 <ul>
   <li>나의 첫번째 프로젝트 #1</li>
 </ul>
 
-<p>프로젝트 개요 : x86서버 H/W 장애를 빠르게 인지하고 신속한 조치로 장애시간 최소화
-개발언어 : MRKN(MongoDB, React, Koa, NodeJS), Bootstrap Template</p>
+<p>​       프로젝트명 : x86서버 H/W 모니터링 시스템
+​       프로젝트 개요 : x86서버 H/W 장애를 빠르게 인지하고 신속한 조치로 장애시간 최소화
+​       개발언어 : MKRN(MongoDB, Koa, React, NodeJS), Bootstrap Template</p>
 
-<p>아키텍처 :</p>
+<p>​      <strong>개발 아키텍처 :</strong></p>
 
 <p><img src="../../assets/posts_images/2022-06-12-project-redfish/redfish_arch.png" alt="redfish_arch" /></p>
 
@@ -275,7 +284,7 @@ into the {body} of the default.hbs template -->
                         var disqus_config = function () {
                             var this_page_url = 'https://soulscale75.github.io/project-redfish';
                             var this_page_identifier = '/project-redfish';
-                            var this_page_title = 'redfish를 통한 x86 H/W 관리시스템';
+                            var this_page_title = 'redfish를 통한 x86 H/W 관리시스템 - 프로젝트 소개 및 아키텍처';
                         };
                         (function() {
                             var d = document, s = d.createElement('script');
@@ -375,13 +384,13 @@ Issue : kernel.msgmni 값이 default인 32768에서 변경이 안됨
         </a>
     </div>
     <span class="floating-header-divider">&mdash;</span>
-    <div class="floating-header-title">redfish를 통한 x86 H/W 관리시스템</div>
+    <div class="floating-header-title">redfish를 통한 x86 H/W 관리시스템 - 프로젝트 소개 및 아키텍처</div>
     <div class="floating-header-share">
         <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
     <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/>
 </svg>
 </div>
-        <a class="floating-header-share-tw" href="https://twitter.com/share?text=redfish%EB%A5%BC+%ED%86%B5%ED%95%9C+x86+H%2FW+%EA%B4%80%EB%A6%AC%EC%8B%9C%EC%8A%A4%ED%85%9C&amp;url=https://soulscale75.github.io/project-redfish"
+        <a class="floating-header-share-tw" href="https://twitter.com/share?text=redfish%EB%A5%BC+%ED%86%B5%ED%95%9C+x86+H%2FW+%EA%B4%80%EB%A6%AC%EC%8B%9C%EC%8A%A4%ED%85%9C+-+%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8+%EC%86%8C%EA%B0%9C+%EB%B0%8F+%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98&amp;url=https://soulscale75.github.io/project-redfish"
             onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
 
