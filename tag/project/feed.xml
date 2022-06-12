@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://soulscale75.github.io/tag/project/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://soulscale75.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-06-12T22:09:58+09:00</updated>
+  <updated>2022-06-12T22:14:20+09:00</updated>
   <id>https://soulscale75.github.io/tag/project/feed.xml</id>
 
   
@@ -41,38 +41,39 @@
 
 &lt;p&gt;현재 관리하고 있는 x86서버가 박스 기준 1500대가 넘었다.&lt;/p&gt;
 
-&lt;p&gt;유닉스 엔지니어를 시작했던 15년전에도 서버의 하드웨어를 효율적으로 관리하는게
-목적이었는데, 그당시 언어를 배워서 무언가를 개발하는게 굉장히 힘들게 느껴졌다.
+&lt;p&gt;유닉스 엔지니어를 시작했던 15년전에도 서버의 하드웨어를 효율적으로 관리하는게&lt;br /&gt;
+목적이었는데, 그당시 언어를 배워서 무언가를 개발하는게 굉장히 힘들게 느껴졌다.&lt;br /&gt;
 내가 프로그래밍 언어에 대한 관심도가 지금과는 많이 달라서 그런거 같기도 하다.&lt;/p&gt;
 
-&lt;p&gt;최근에는 프로그래밍 언어의 접근 장벽이 예전보다는 낮아지고 개발 생태계도 많이 좋아져서 
-노력만 하면 누구든 개발할 수 있는 시대가 온거 같다.&lt;/p&gt;
+&lt;p&gt;최근에는 프로그래밍 언어의 접근 장벽이 예전보다는 낮아지고 개발 생태계도 많이&lt;br /&gt;
+좋아져서 노력만 하면 누구든 개발할 수 있는 시대가 온거 같다.&lt;/p&gt;
 
-&lt;p&gt;왜냐하면 서버 엔지니어/관리자로만 15년간 생활해 왔던 내가 프로그램 공부를 해서 
+&lt;p&gt;왜냐하면 서버 엔지니어/관리자로만 15년간 생활해 왔던 내가 프로그램 공부를 해서 &lt;br /&gt;
 개발 프로젝트를 하고 있으니…ㅎㅎ&lt;/p&gt;
 
-&lt;p&gt;사실 이 프로젝트를 준비하게 된 계기는 
-처음에는 각 서버의 콘솔에 접속해서 웹 크롤링으로 관리하려고 했었다.
-배치성으로 크롤링해서 하루에 한번 하드웨어 문제가 있는지만 확인하려고 했는데
-구글, 유튜브에서 크롤링과 서버 자동화에 대해  검색하다 우연히 2020년도에 엔씨소프트 김현준님이 
-발표한 &lt;a href=&quot;https://youtu.be/WE7KVonaN0A&quot;&gt;[OICD2020] 서버 관리 오픈 플랫폼 redfish 낚아 채기&lt;/a&gt;라는 영상을 보고
-개발 방향을 전환했다.&lt;/p&gt;
+&lt;p&gt;사실 이 프로젝트를 준비하게 된 계기는 &lt;br /&gt;
+처음에는 각 서버의 콘솔에 접속해서 웹 크롤링으로 관리하려고 했었다.&lt;br /&gt;
+배치성으로 크롤링해서 하루에 한번 하드웨어 문제가 있는지만 확인하려고 했는데&lt;br /&gt;
+구글, 유튜브에서 크롤링과 서버 자동화에 대해  검색하다 우연히 2020년도에&lt;br /&gt;
+엔씨소프트 김현준님이 발표한 &lt;a href=&quot;https://youtu.be/WE7KVonaN0A&quot;&gt;[OICD2020] 서버 관리 오픈 플랫폼 redfish 낚아 채기 &lt;/a&gt;&lt;br /&gt;
+라는 영상을 보고  개발 방향을 전환했다.&lt;/p&gt;
 
 &lt;p&gt;서버의 콘솔에서 API를 제공하고 있었다니…&lt;/p&gt;
 
-&lt;p&gt;덕분에 파이썬만 공부하다가 HTML, CSS, Javascript, React, NodeJS를 공부하고 익히는데 1년이 후딱 지나버렸다.&lt;/p&gt;
+&lt;p&gt;덕분에 파이썬만 공부하다가 HTML, CSS, Javascript, React, NodeJS를 공부하고 익히는데 &lt;br /&gt;
+1년이 후딱 지나버렸다.&lt;/p&gt;
 
-&lt;p&gt;2022년 올 초부터 공부한걸 바탕으로 프로젝트를 시작했고 개발자가 아니다 보니 개발하는데만 
-집중을 할 수가 없어 시간이 많이 소요되고 있다.
-비록 업무와 병행하며 공부하는데 많은 시간이 소요 되었고 업무외 시간에 조금씩 개발하고 있지만 
-진전이 되고 있으니 매우 뿌듯하다.&lt;/p&gt;
+&lt;p&gt;2022년 올 초부터 공부한걸 바탕으로 프로젝트를 시작했고 개발자가 아니다 보니 &lt;br /&gt;
+개발하는데만 집중을 할 수가 없어 시간이 많이 소요되고 있다.
+비록 업무와 병행하며 공부하는데 많은 시간이 소요 되었고 업무외 시간에 조금씩 개발하고 
+있지만 진전이 되고 있으니 매우 뿌듯하다.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;나의 첫번째 프로젝트 #1&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;​       프로젝트명 : x86서버 H/W 모니터링 시스템
-​       프로젝트 개요 : x86서버 H/W 장애를 빠르게 인지하고 신속한 조치로 장애시간 최소화
+&lt;p&gt;​       프로젝트명 : x86서버 H/W 모니터링 시스템&lt;br /&gt;
+​       프로젝트 개요 : x86서버 H/W 장애를 빠르게 인지하고 신속한 조치로 장애시간 최소화&lt;br /&gt;
 ​       개발언어 : MKRN(MongoDB, Koa, React, NodeJS), Bootstrap Template&lt;/p&gt;
 
 &lt;p&gt;​      &lt;strong&gt;개발 아키텍처 :&lt;/strong&gt;&lt;/p&gt;
