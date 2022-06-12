@@ -8,6 +8,21 @@
     
       
       <item>
+        <title>redfish를 통한 x86 H/W 관리시스템</title>
+        
+          <description>&lt;h1 id=&quot;현재-진행중인-개인-프로젝트&quot;&gt;현재 진행중인 개인 프로젝트&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Sun, 12 Jun 2022 19:20:00 +0900</pubDate>
+        <link>
+        https://soulscale75.github.io/project-redfish</link>
+        <guid isPermaLink="true">https://soulscale75.github.io/project-redfish</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>리눅스 트러블슈팅 - kernel.msgmni 값 변경 실패</title>
         
           <description>&lt;p&gt;환경&lt;br /&gt;
@@ -58,35 +73,6 @@ Issue : kernel.msgmni 값이 default인 32768에서 변경이 안됨&lt;/p&gt;
         <link>
         https://soulscale75.github.io/python-basic1</link>
         <guid isPermaLink="true">https://soulscale75.github.io/python-basic1</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>개인프로젝트</title>
-        
-          <description>&lt;p&gt;이 글은 개인프로젝트 테스트중입니다!!!!&lt;/p&gt;
-</description>
-        
-        <pubDate>Fri, 10 Jun 2022 16:40:00 +0900</pubDate>
-        <link>
-        https://soulscale75.github.io/project-basic</link>
-        <guid isPermaLink="true">https://soulscale75.github.io/project-basic</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>Gettysburg Address</title>
-        
-          <description>&lt;p&gt;Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Thu, 19 Nov 1863 19:18:00 +0900</pubDate>
-        <link>
-        https://soulscale75.github.io/gettysburg-address</link>
-        <guid isPermaLink="true">https://soulscale75.github.io/gettysburg-address</guid>
       </item>
       
     

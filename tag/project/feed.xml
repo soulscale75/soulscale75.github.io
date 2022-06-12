@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://soulscale75.github.io/tag/project/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://soulscale75.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-06-12T01:42:16+09:00</updated>
+  <updated>2022-06-12T20:41:35+09:00</updated>
   <id>https://soulscale75.github.io/tag/project/feed.xml</id>
 
   
@@ -32,12 +32,43 @@
 
   
     <entry>
-      <title type="html">개인프로젝트</title>
-      <link href="https://soulscale75.github.io/project-basic" rel="alternate" type="text/html" title="개인프로젝트" />
-      <published>2022-06-10T16:40:00+09:00</published>
-      <updated>2022-06-10T16:40:00+09:00</updated>
-      <id>https://soulscale75.github.io/project-basic</id>
-      <content type="html" xml:base="https://soulscale75.github.io/project-basic">&lt;p&gt;이 글은 개인프로젝트 테스트중입니다!!!!&lt;/p&gt;</content>
+      <title type="html">redfish를 통한 x86 H/W 관리시스템</title>
+      <link href="https://soulscale75.github.io/project-redfish" rel="alternate" type="text/html" title="redfish를 통한 x86 H/W 관리시스템" />
+      <published>2022-06-12T19:20:00+09:00</published>
+      <updated>2022-06-12T19:20:00+09:00</updated>
+      <id>https://soulscale75.github.io/project-redfish</id>
+      <content type="html" xml:base="https://soulscale75.github.io/project-redfish">&lt;h1 id=&quot;현재-진행중인-개인-프로젝트&quot;&gt;현재 진행중인 개인 프로젝트&lt;/h1&gt;
+
+&lt;p&gt;현재 관리하고 있는 x86서버가 박스 기준 1500대가 넘었다.&lt;/p&gt;
+
+&lt;p&gt;유닉스 엔지니어를 시작했던 10여년 전에도 서버의 하드웨어를&lt;br /&gt;
+효율적으로 관리하는게 목적이었는데, 그당시 언어를 배워서&lt;br /&gt;
+무언가를 개발하는게 굉장히 힘들었었다.&lt;br /&gt;
+왜 그시절에는 프로그래밍 언어가 그렇게 어려웠을까??&lt;/p&gt;
+
+&lt;p&gt;최근에는 프로그래밍 언어의 접근 장벽이 예전보다는 낮아지고&lt;br /&gt;
+개발 생태계도 많이 좋아져서 노력만 하면 누구든 개발할 수&lt;br /&gt;
+있는 시대가 온거 같다.&lt;/p&gt;
+
+&lt;p&gt;왜냐하면 서버 엔지니어/관리자로만 15년간 생활해 왔던 내가 프로그램 공부를 해서&lt;br /&gt;
+개발 프로젝트를 하고 있으니…ㅎㅎ&lt;/p&gt;
+
+&lt;p&gt;비록 업무와 병행하며 공부하는데 많은 시간이 소요 되었고 업무외 시간에&lt;/p&gt;
+
+&lt;p&gt;조금씩 개발하고 있지만 진전이 있는걸 보니 뿌듯하기도 하다.&lt;/p&gt;
+
+&lt;p&gt;자 이제 머리속에만 있던 자동화 계획을 하나씩 꺼내서 시작 해보자!!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;나의 첫번째 프로젝트 #1&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;프로젝트 개요 : x86서버 H/W 장애를 빠르게 인지하고 신속한 조치로 장애시간 최소화
+개발언어 : MRKN(MongoDB, React, Koa, NodeJS), Bootstrap Template&lt;/p&gt;
+
+&lt;p&gt;아키텍처 :&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/2022-06-12-project-redfish/redfish_arch-16550334592002.png&quot; alt=&quot;redfish_arch&quot; /&gt;&lt;/p&gt;</content>
 
       
       
@@ -58,7 +89,7 @@
       
 
       
-        <summary type="html">이 글은 개인프로젝트 테스트중입니다!!!!</summary>
+        <summary type="html">현재 진행중인 개인 프로젝트</summary>
       
 
       
