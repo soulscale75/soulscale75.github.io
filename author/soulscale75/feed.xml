@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://soulscale75.github.io/author/soulscale75/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://soulscale75.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-06-12T22:14:20+09:00</updated>
+  <updated>2022-06-12T22:20:46+09:00</updated>
   <id>https://soulscale75.github.io/author/soulscale75/feed.xml</id>
 
   
@@ -72,9 +72,11 @@
   &lt;li&gt;나의 첫번째 프로젝트 #1&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;​       프로젝트명 : x86서버 H/W 모니터링 시스템&lt;br /&gt;
-​       프로젝트 개요 : x86서버 H/W 장애를 빠르게 인지하고 신속한 조치로 장애시간 최소화&lt;br /&gt;
-​       개발언어 : MKRN(MongoDB, Koa, React, NodeJS), Bootstrap Template&lt;/p&gt;
+&lt;p&gt;​       프로젝트명 : x86서버 H/W 모니터링 시스템&lt;/p&gt;
+
+&lt;p&gt;​       프로젝트 개요 : x86서버 H/W 장애를 빠르게 인지하고 신속한 조치로 장애시간 최소화&lt;/p&gt;
+
+&lt;p&gt;​       개발언어 : MKRN(MongoDB, Koa, React, NodeJS), Bootstrap Template&lt;/p&gt;
 
 &lt;p&gt;​      &lt;strong&gt;개발 아키텍처 :&lt;/strong&gt;&lt;/p&gt;
 
