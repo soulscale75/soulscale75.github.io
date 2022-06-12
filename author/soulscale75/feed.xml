@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://soulscale75.github.io/author/soulscale75/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://soulscale75.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-06-12T22:26:51+09:00</updated>
+  <updated>2022-06-12T22:27:58+09:00</updated>
   <id>https://soulscale75.github.io/author/soulscale75/feed.xml</id>
 
   
@@ -55,7 +55,7 @@
 처음에는 각 서버의 콘솔에 접속해서 웹 크롤링으로 관리하려고 했었다.&lt;br /&gt;
 배치성으로 크롤링해서 하루에 한번 하드웨어 문제가 있는지만 확인하려고 했는데&lt;br /&gt;
 구글, 유튜브에서 크롤링과 서버 자동화에 대해  검색하다 우연히 2020년도에&lt;br /&gt;
-엔씨소프트 김현준님이 발표한 &lt;a href=&quot;https://youtu.be/WE7KVonaN0A&quot;&gt;[OICD2020] 서버 관리 오픈 플랫폼 redfish 낚아 채기 &lt;/a&gt;&lt;br /&gt;
+엔씨소프트 김현준님이 발표한 &lt;strong&gt;&lt;a href=&quot;https://youtu.be/WE7KVonaN0A&quot;&gt;[OICD2020] 서버 관리 오픈 플랫폼 redfish 낚아 채기 &lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
 라는 영상을 보고  개발 방향을 전환했다.&lt;/p&gt;
 
 &lt;p&gt;서버의 콘솔에서 API를 제공하고 있었다니…&lt;/p&gt;
